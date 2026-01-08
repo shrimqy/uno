@@ -29,7 +29,7 @@ namespace Uno.UI.RuntimeTests.Tests.Microsoft_UI_Xaml_Controls;
 #if !HAS_UNO || __ANDROID__ || __IOS__ || __SKIA__
 [RunsOnUIThread]
 [TestClass]
-[PlatformCondition(ConditionMode.Exclude, RuntimeTestPlatforms.SkiaWpf | RuntimeTestPlatforms.SkiaWin32 | RuntimeTestPlatforms.SkiaWasm | RuntimeTestPlatforms.SkiaIslands)]
+[PlatformCondition(ConditionMode.Exclude, RuntimeTestPlatforms.SkiaWpf | RuntimeTestPlatforms.SkiaWin32 | RuntimeTestPlatforms.SkiaWasm | RuntimeTestPlatforms.SkiaIslands | RuntimeTestPlatforms.SkiaFrameBuffer)]
 public class Given_WebView2
 {
 	[TestMethod]
@@ -311,7 +311,6 @@ public class Given_WebView2
 	[Ignore("Crashes")]
 #endif
 	[TestMethod]
-	[PlatformCondition(ConditionMode.Exclude, RuntimeTestPlatforms.SkiaWin32)] // passes locally but fails in CI
 	public async Task When_LocalFolder_File()
 	{
 		async Task Do()

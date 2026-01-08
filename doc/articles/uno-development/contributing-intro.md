@@ -20,7 +20,7 @@ Get an [in-depth introduction to how Uno works](uno-internals-overview.md), or j
 
 For the prerequisites you'll need, as well as useful tips like using [solution filters](https://learn.microsoft.com/visualstudio/ide/filtered-solutions) and cross-targeting overrides to quickly load and build Uno for a single platform, start with the guide to [Building Uno.UI](building-uno-ui.md). The guide to [Debugging Uno.UI](debugging-uno-ui.md) will show you how to debug Uno.UI code either in the included UI samples or in an application outside the Uno.UI solution.
 
-You can contribute to Uno directly from your browser using GitPod, [find out how](xref:Uno.Features.Gitpod).
+You can contribute to Uno directly from your browser using Ona, [find out how](xref:Uno.Features.Gitpod).
 
 Whether you're fixing a bug or working on a new feature, [inspecting the visual tree of a running app](xref:Uno.Contributing.InspectVisualTree) is often a key step.
 
@@ -70,9 +70,9 @@ Uno uses [Dependabot to automatically update external dependencies](../contribut
 
 Read the [guidelines for issue triage](../contributing/guidelines/issue-triage.md).
 
-Tools and procedures for creating stable releases are described [here](release-procedure.md).
+Tools and procedures for creating stable releases are described in the [release procedure documentation](release-procedure.md).
 
-Build artifacts produced by the CI are documented [here](../contributing/build-artifacts.md).
+Build artifacts produced by the CI are documented in the [build artifacts guide](../contributing/build-artifacts.md).
 
 ### More questions?
 
